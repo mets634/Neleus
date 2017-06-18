@@ -14,12 +14,12 @@ fi
 
 echo "[$name]Writing DNS64 config file to BIND9..."
 echo "options {
-    directory "/var/cache/bind";
-
+    directory \"/var/cache/bind\";
+    auth-nxdomain no;
     listen-on-v6 { any; };
-
+    allow-query { any; };
     dns64 6d65:7473:3633:34::/96 {
-        
+        clients { any; };
     };
 };" > /etc/bind/named.conf.options
 
