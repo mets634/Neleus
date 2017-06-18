@@ -1,5 +1,7 @@
 #!/bin/bash
 
+name="ConfigRadvd"
+
 # assumptions:
 # 1) Router adv. will be sent on interface eth0.
 # 2) Interface eth0 has IPv6 address 6D65:7473:3633:34::1.
@@ -7,7 +9,7 @@
 
 # check for Radvd module
 if ! hash radvd 2>/dev/null; then
-    echo "Radvd not found. Installing module..."
+    echo "[$name]Radvd not found. Installing module..."
     apt-get install radvd
 fi
 
@@ -27,3 +29,10 @@ echo "interface eth0 {
         AdvRouterAddr on;
     };
 };" > /etc/radvd.conf
+
+echo "[$name]Starting service..."
+
+# extra lines to deal with ungraceful shutdown
+service radvd start
+killall -9 radvd
+service radvd start

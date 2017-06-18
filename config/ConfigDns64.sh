@@ -1,16 +1,18 @@
 #!/bin/bash
 
+name="ConfigDns64"
+
 # assumptions:
 # 1) DNS will use interface eth0.
 # 2) Device has an external DNS server to access.
 
 
-if ! hash bind9  2>/dev/null; then
-    echo "[*]Bind9 not found. Installing module..."
+if ! hash bind  2>/dev/null; then
+    echo "[$name]Bind9 not found. Installing module..."
     apt-get install bind9
 fi
 
-echo "[*]Writing DNS64 config file to BIND9..."
+echo "[$name]Writing DNS64 config file to BIND9..."
 echo "options {
     directory "/var/cache/bind";
 
@@ -28,5 +30,5 @@ echo "options {
     };
 };" > /etc/bind/named.conf.options
 
-echo "Restarting DNS server..."
+echo "[$name]Restarting DNS server..."
 service bind9 restart
