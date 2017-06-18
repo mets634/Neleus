@@ -24,7 +24,7 @@ echo "interface eth0 {
 
     prefix 6D65:7473:3633:34::/64 
     {
-        AdvOnLink on;
+        AdvOnLink off;
         AdvAutonomous on; # clients should use SLAAC auto-configuration
         AdvRouterAddr on;
     };
