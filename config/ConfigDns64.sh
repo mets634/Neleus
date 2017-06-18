@@ -19,14 +19,7 @@ echo "options {
     listen-on-v6 { any; };
 
     dns64 6D65:7473:3633:34::/96 {
-        recursive-only no;
-        exclude {
-            ::/0;
-        };
-        clients {
-            ::1;
-            6D65:7473:3633:34::/64;
-        };
+        
     };
 };" > /etc/bind/named.conf.options
 
