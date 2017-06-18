@@ -18,7 +18,7 @@ echo "options {
 
     listen-on-v6 { any; };
 
-    dns64 6D65:7473:3633:34::/96 {
+    dns64 6d65:7473:3633:34::/96 {
         
     };
 };" > /etc/bind/named.conf.options
