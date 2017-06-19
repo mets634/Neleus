@@ -2,7 +2,7 @@
 
 name="ConfigDHCPv6"
 
-if ! hash wide-dhcpv6-server 2>/dev/null; then
+if ! hash dhcp6s 2>/dev/null; then
     echo "[$name]Wide-DHCPv6 not found. Installing module..."
     apt-get install wide-dhcpv6-server
 fi
