@@ -18,7 +18,7 @@ echo "options {
     auth-nxdomain no;
     listen-on-v6 { any; };
     allow-query { any; };
-    dns64 6d65:7473:3633:3400::/96 {
+    dns64 6d65:7473:3633:3400:ffff:/96 {
         clients { any; };
     };
 };" > /etc/bind/named.conf.options

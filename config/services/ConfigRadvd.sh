@@ -22,7 +22,7 @@ echo "interface eth0 {
     MinRtrAdvInterval 3;
     MaxRtrAdvInterval 10;
 
-    prefix 6D65:7473:3633:3400::/64 
+    prefix 6D65:7473:3633:3400::/64
     {
         AdvOnLink on;
         AdvAutonomous on; # clients should use SLAAC auto-configuration
@@ -33,6 +33,5 @@ echo "interface eth0 {
 echo "[$name]Starting service..."
 
 # extra lines to deal with ungraceful shutdown
-service radvd start
 killall -9 radvd
 service radvd start

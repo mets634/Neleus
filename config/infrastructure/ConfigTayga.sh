@@ -27,7 +27,7 @@ data-dir /var/db/tayga" > /etc/tayga.conf
 # push tayga's configurations
 
 echo "[$0]Applying configurations..."
-
+killall tayga
 tayga --mktun
 
 # edit routing table
@@ -44,8 +44,10 @@ ip route add 6d65:7473:3633:3400:ffff::/96 dev nat64
 echo "[$0]Allowing IP forwarding..."
 sysctl -w net.ipv6.conf.all.forwarding=1
 sysctl -w net.ipv4.ip_forward=1
+service networking restart
 
 # start tayga
 
 echo "[$0]Starting tayga..."
-tayga
+tayga -d
+#tail /var/log/syslog
