@@ -1,0 +1,18 @@
+● bind9.service - BIND Domain Name Server
+   Loaded: loaded (/lib/systemd/system/bind9.service; disabled; vendor preset: disabled)
+   Active: failed (Result: exit-code) since Wed 2017-06-21 13:07:40 IDT; 33s ago
+     Docs: man:named(8)
+  Process: 1675 ExecStop=/usr/sbin/rndc stop (code=exited, status=1/FAILURE)
+  Process: 1670 ExecStart=/usr/sbin/named -f $OPTIONS (code=exited, status=1/FAILURE)
+ Main PID: 1670 (code=exited, status=1/FAILURE)
+
+Jun 21 13:07:40 security named[1670]: loading configuration from '/etc/bind/named.conf'
+Jun 21 13:07:40 security named[1670]: /etc/bind/named.conf.options:6: expected IP address or IPv4 prefix near '6d65:7473:3633:3400:ffff:'
+Jun 21 13:07:40 security named[1670]: /etc/bind/named.conf.options:6: expected network prefix near '6d65:7473:3633:3400:ffff:'
+Jun 21 13:07:40 security named[1670]: loading configuration: unexpected token
+Jun 21 13:07:40 security named[1670]: exiting (due to fatal error)
+Jun 21 13:07:40 security systemd[1]: bind9.service: Main process exited, code=exited, status=1/FAILURE
+Jun 21 13:07:40 security rndc[1675]: rndc: connect failed: 127.0.0.1#953: connection refused
+Jun 21 13:07:40 security systemd[1]: bind9.service: Control process exited, code=exited status=1
+Jun 21 13:07:40 security systemd[1]: bind9.service: Unit entered failed state.
+Jun 21 13:07:40 security systemd[1]: bind9.service: Failed with result 'exit-code'.

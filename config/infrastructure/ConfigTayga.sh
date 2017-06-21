@@ -39,6 +39,9 @@ ip addr add 6d65:7473:3633:3400::1 dev nat64
 ip route add 192.168.255.0/24 dev nat64
 ip route add 6d65:7473:3633:3400:ffff::/96 dev nat64
 
+echo "[$0]Allowing NAT44..."
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE # allow NAT44 forwarding
+
 # allow port forwarding
 
 echo "[$0]Allowing IP forwarding..."
