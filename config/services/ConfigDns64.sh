@@ -20,6 +20,7 @@ echo "options {
     allow-query { any; };
     dns64 6d65:7473:3633:3400:ffff::/96 {
         clients { any; };
+        exclude { ::1/0; };
     };
 };" > /etc/bind/named.conf.options
 
