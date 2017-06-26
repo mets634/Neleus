@@ -1,10 +1,11 @@
 #!/bin/bash
 
-name="ConfigRadvd"
+# This script will setup a server to send out router solicitations
+# in order to con ipv4 users to use this machine as the router. The
+# router's prefix must be the same as the static ipv6 address configured,
+# and there must be a DHCPv6 server on the network.
 
-# assumptions:
-# 1) Router adv. will be sent on interface eth0.
-# 2) Interface eth0 has IPv6 address 6D65:7473:3633:34::1.
+name="ConfigRadvd"
 
 
 # check for Radvd module

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+# This script will setup a DHCPv6 server. Nameserver must be the
+# static ipv6 address of an attacker controlled server.
+
 name="ConfigDHCPv6"
 
 if ! hash dhcp6s 2>/dev/null; then

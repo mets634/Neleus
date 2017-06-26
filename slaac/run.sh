@@ -1,8 +1,11 @@
 #!/bin/bash
 
+# This script will run all the components needed to
+# start a SLAAC attack with a given machine.
+
 if [ -z "$1" ]
 then
-    echo "NO ARGUMENTS SUPPLIED!!!"
+    echo "MUST SUPPLY eth0's IPv4 ADDRESS!!!"
     exit 1
 fi
 

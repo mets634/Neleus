@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# This script will setup the network interface eth0
+# to work with a static ipv6 address, as well as
+# a DHCP-configured ipv4 address. When running the other
+# services, you must make sure to match the ip addresses
+# with the configured one in this file.
+
 # configure interfaces file
 
 echo "[$0]Configuring /etc/network/interfaces file..."

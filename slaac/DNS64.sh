@@ -1,10 +1,12 @@
 #!/bin/bash
 
-name="ConfigDns64"
+# This script will setup a DNS server that will translate
+# all ipv4 addresses to ipv6 addresses so that Tayga may
+# translate them back. This server's dns64 prefix must
+# match the ipv6's network prefix with an additional 'ffff'.
 
-# assumptions:
-# 1) DNS will use interface eth0.
-# 2) Device has an external DNS server to access.
+
+name="ConfigDns64"
 
 
 if ! hash bind  2>/dev/null; then

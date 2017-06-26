@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This script will setup up a NAT64. As a parameter the script
+# receives the ipv4 address of eth0. 
+
 if ! hash tayga 2>/dev/null; then
     echo "[$0]Tayga not found. Installing module..."
     apt-get install tayga
