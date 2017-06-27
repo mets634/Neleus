@@ -41,6 +41,8 @@ ip addr add $1 dev nat64
 ip addr add 6d65:7473:3633:3400::1 dev nat64
 ip route add 192.168.255.0/24 dev nat64
 ip route add 6d65:7473:3633:3400:ffff::/96 dev nat64
+echo 1 > /proc/sys/net/ipv6/conf/all/forwarding
+echo 1 > /proc/sys/net/ipv4/ip_forward
 
 echo "[$0]Allowing NAT44..."
 iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE # allow NAT44 forwarding
