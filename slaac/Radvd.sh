@@ -33,12 +33,6 @@ echo "interface eth0 {
 
 echo "[$name]Starting service..."
 
-echo "[$0]Allowing IP forwarding..."
-sysctl -w net.ipv6.conf.all.forwarding=1
-sysctl -w net.ipv4.ip_forward=1
-service networking stop
-service networking start
-
 # extra lines to deal with ungraceful shutdown
 killall -9 radvd
 radvd

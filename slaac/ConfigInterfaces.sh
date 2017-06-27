@@ -21,7 +21,8 @@ iface eth0 inet6 static
 # allow ip forwarding
 
 echo "[$0]Allowing IPv6 forwarding..."
-sysctl -w net.ipv6.conf.all.forwarding=1
+echo "net.ipv6.conf.all.forwarding=1
+net.ipv4.ip_forward=1" >> /etc/sysctl
 
 # restart networking
 

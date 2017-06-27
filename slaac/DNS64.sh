@@ -19,12 +19,20 @@ echo "options {
     directory \"/var/cache/bind\";
     auth-nxdomain no;
     listen-on-v6 { any; };
+
     allow-query { any; };
+    allow-query-cache { any; };
+    recursion yes;
+
     dns64 6d65:7473:3633:3400:ffff::/96 {
         clients { any; };
         exclude { ::1/0; };
     };
 };" > /etc/bind/named.conf.options
+
+echo "[$name]Setting bind9 only to only respond to AAAA requests..."
+echo "RESOLVCONF=yes
+OPTIONS=\"-u bind\"" > /etc/default/bind9
 
 echo "[$name]Restarting DNS server..."
 service bind9 restart
