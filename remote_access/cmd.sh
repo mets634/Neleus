@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "YAYYYY!!! IT IS WORKING"
+echo "THIS IS SOOO COOOL!!!! GOO NELEUS!!!!"
