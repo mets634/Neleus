@@ -1,0 +1,13 @@
+POST /fd/ls/lsp.aspx HTTP/1.1
+Host: www.bing.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Referer: http://www.bing.com/
+Content-Length: 765
+Cookie: MUID=2BD4BB99B2ED61670C81B1CBB6ED62FE; SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=598B74DCAE7444E3839F97E532507E4A; SRCHUSR=DOB=20170628; _SS=SID=05ADB0C6D5026BDC33DDBA69D4706AC5&bIm=381928&HV=1498653227; _EDGE_S=SID=05ADB0C6D5026BDC33DDBA69D4706AC5; MUIDB=2BD4BB99B2ED61670C81B1CBB6ED62FE; SRCHHPGUSR=CW=1010&CH=592&DPR=1&UTC=180; WLS=TS=63634253706
+Connection: keep-alive
+
+<ClientInstRequest><Events><E><T>Event.ClientInst</T><IG>2BC9173BB0DB4DAE91AC00E5068023C5</IG><TS>1498653228796</TS><D><![CDATA[[{"T":"CI.BoxModel","FID":"CI","Name":"v2.8","SV":"4","P":{"C":5,"N":2,"I":"15t","S":"MT","M":"V+L+M+MT+E+N+C+K+BD","T":4093,"K":"22d+2k4+269+2ki+2kj+2l9+2nf","F":0},"L":"@r/m/DIV#ajaxStyles//0/0/s2/0/1/MT/-1","N":"@j/h//@3/HPImageArchive.aspx/@i/58/@4/@j/0/@j/1ki/@k/@k+@n/i//@3/8_01_0_000000%2FHpbHeaderPopup.js/@7/hq/@4/@n/0/@n/22f/@o/@o+@p/j//@3/ls%2Flsp.aspx/@i/dv/@4/@p/0/@p/26b/@o/@o+@q/k//@3/rb%2FNorddorfPath_ROW11068135928_1366x768.jpg/@c/c8/@4/@q/0/@q/@r/2s6/2wq+2l7/l//a4.bing.com/clientinst/@c/7f/@4/-1/0/-1/-1/-1/2sn+@s/m//@3/ppt/@c/25/@4/@s/0/@s/2lc/@t/@t"}]]]></D></E></Events><STS>1498653228796</STS></ClientInstRequest>

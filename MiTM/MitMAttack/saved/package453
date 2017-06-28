@@ -1,0 +1,10 @@
+GET /rms/AutoSug/cj,nj/e9f97b9b/d0ee807b.js?bu=rms+answers+AutoSuggest+Service%2cWeb%24Utils%2cWeb%24EventRegisterer%2cWeb%24EventRegistration%2cEmpty%2cEmpty%2cEmpty%2cWeb%24WebCore%2cWeb%24DataProvider%2cEmpty%2cEmpty%2cWeb%24Canvas%2cWeb%24Layout%2cWeb%24SearchForm%2cEmpty%2cEmpty%2cWeb%24PrefixThrottling%2cEmpty%2cEmpty%2cEmpty%2cWeb%24Init HTTP/1.1
+Host: www.bing.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bing.com/
+Cookie: MUID=2BD4BB99B2ED61670C81B1CBB6ED62FE; SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=598B74DCAE7444E3839F97E532507E4A; SRCHUSR=DOB=20170628; _SS=SID=05ADB0C6D5026BDC33DDBA69D4706AC5; _EDGE_S=SID=05ADB0C6D5026BDC33DDBA69D4706AC5; MUIDB=2BD4BB99B2ED61670C81B1CBB6ED62FE; SRCHHPGUSR=CW=1010&CH=592&DPR=1&UTC=180
+Connection: keep-alive
+

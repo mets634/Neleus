@@ -1,0 +1,11 @@
+GET /lib/javascript.php/-1/lib/requirejs/require.min.js HTTP/1.1
+Host: moodle.jct.ac.il
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://moodle.jct.ac.il/
+Cookie: visid_incap_97364=nuYkMFY2SJOiAvexFw62ZWBTF1kAAAAAQUIPAAAAAAANzISahfUGk5VQV1Quq/ML; _ga=GA1.3.763167961.1494700898; MoodleSessiondev=ml0i1cb7lg1t60rqii1oj9nug3
+Connection: keep-alive
+If-Modified-Since: Wed, 28 Jun 2017 13:10:45 GMT
+

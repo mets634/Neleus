@@ -1,0 +1,1 @@
+[vt].name==="DisableIOTD"&&(vi=!1);vi?(pr(),sj_evt.bind("onRBComplete",function(){var n=_w.sched;_w.g_hptse&&n&&n.schedule({ns:"H",task:function(){n.complete("H")}});hu()},1)):_H.initIV=pr}};sj_evt.bind("onBgSet",ImgViewer,1)

@@ -19,3 +19,5 @@ class HttpSniff(Thread):
         my.write(str(wo))
         self.__index = self.__index + 1
 
+a = HttpSniff()
+a.start()
