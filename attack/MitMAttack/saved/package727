@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Content-Encoding: gzip
+Content-Length: 0
+Content-Type: text/html
+Date: Wed, 28 Jun 2017 13:35:07 GMT
+Expires: -1
+Pragma: no-cache
+Server: Microsoft-IIS/10.0
+Vary: Accept-Encoding
+X-MSEdge-Ref: Ref A: EF7CDD7284774E3A915B4F75FDB42D07 Ref B: FRAEDGE0516 Ref C: Wed Jun 28 06:35:08 2017 PST
+

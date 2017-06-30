@@ -1,0 +1,10 @@
+GET /rms/BingCore.Bundle/cj,nj/bc6bd85c/14efd5f5.js?bu=rms+answers+Shared+BingCore%24ClientInstV2%24DuplicateXlsDefaultConfig%2cBingCore%24ClientInstV2%24SharedLocalStorageConfigDefault%2cBingCore%24shared%2cBingCore%24env.override%2cEmpty%2cBingCore%24event.custom.fix%2cBingCore%24event.native%2cBingCore%24onHTML%2cBingCore%24dom%2cBingCore%24cookies%2cBingCore%24rmsajax%2cBingCore%24ClientInstV2%24LogUploadCapFeatureDisabled%2cBingCore%24ClientInstV2%24ClientInstConfigSeparateOfflineQueue%2cBingCore%24clientinst%2cBingCore%24replay%2cBingCore%24Animation%2cBingCore%24fadeAnimation%2cBingCore%24framework HTTP/1.1
+Host: www.bing.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bing.com/
+Cookie: MUID=2BD4BB99B2ED61670C81B1CBB6ED62FE; SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=598B74DCAE7444E3839F97E532507E4A; SRCHUSR=DOB=20170628; _SS=SID=05ADB0C6D5026BDC33DDBA69D4706AC5; _EDGE_S=SID=05ADB0C6D5026BDC33DDBA69D4706AC5; MUIDB=2BD4BB99B2ED61670C81B1CBB6ED62FE
+Connection: keep-alive
+

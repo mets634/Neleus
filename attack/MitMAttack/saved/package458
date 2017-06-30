@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=15552000
+Content-Type: application/x-javascript; charset=utf-8
+Last-Modified: Sat, 17 Jun 2017 17:09:09 GMT
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+Date: Wed, 28 Jun 2017 13:35:07 GMT
+Content-Length: 36489
+
+var AutoSuggest,__extends,Bing,sa_inst;(function(n){var t;(function(n){var t,i,r,u,f,e;(function(n){n.User="SRCHHPGUSR"})(t=n.CookieNames||(n.CookieNames={})),function(n){n.AutoSuggest="AS"}(i=n.CrumbNames||(n.CrumbNames={})),function(n){n.CursorPosition="cp";n.ConversationId="cvid";n.SuggestionCount="sc";n.PartialQuery="pq";n.SuggestionPosition="sp";n.SuggestionType="qs";n.PreviewPaneSuggestionType="qsc";n.SkipValue="sk";n.PreviewPaneSkipValue="skc";n.Ghosting="ghc";n.Css="css";n.Count="count";n.DataSet="ds";n.SessionId="sid";n.TimeStamp="qt";n.Query="q";n.ImpressionGuid="ig";n.QFQuery="qry";n.FormCode="form";n.HashedMuid="nclid";n.RequestElToken="elvr";n.AppId="appid";n.History="history";n.NoHistory="nohs";n.ApiTextDecoration="textdecorations";n.ClientId="clientid";n.Market="mkt";n.Scope="scope";n.CountryCode="cc";n.HomeGeographicRegion="hgr";n.SetLang="setlang"}(r=n.QueryParams||(n.QueryParams={})),function(n){n.ImpressionGuid="X-MSEdge-IG"}(u=n.Headers||(n.Headers={})),function(n){n.HitHighlighting="h";n.PopularNow="p";n.Local="l";n.Answers="a"}(f=n.Options||(n.Options={})),function(n){n.Id="i

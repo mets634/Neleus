@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=15552000
+Content-Type: application/x-javascript; charset=utf-8
+Last-Modified: Mon, 26 Jun 2017 20:15:18 GMT
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+Date: Wed, 28 Jun 2017 13:35:06 GMT
+Content-Length: 226
+
+(function(n,t,i){if(t){var r=!1,f=function(){r||(r=!0,typeof wlc!="undefined"&&wlc(sj_evt,sj_cook.set,wlc_t))},u=function(){setTimeout(f,t)};n.bind("onP1",function(){i?n.bind("aad:signedout",u):u()},1)}})(sj_evt,wlc_d,wlc_wfa)

@@ -1,0 +1,1 @@
+,f);sa_inst.init("sa_inst");sa_eL&&sa_inst.show();_w.sj_evt&&sj_evt.fire("autoSugLoaded");sj_evt.bind("ajax.load",function(n){var t=n&&n[1];t&&t.isInstantRequest&&_w.sj_evt&&sj_evt.fire("autoSugLoaded")})}()

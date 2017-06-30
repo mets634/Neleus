@@ -1,0 +1,2 @@
+#! /bin/bash
+dnsspoof -i eth0 -f Address.txt

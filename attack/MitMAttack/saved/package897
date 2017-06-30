@@ -1,0 +1,13 @@
+POST /fd/ls/lsp.aspx HTTP/1.1
+Host: www.bing.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Referer: http://www.bing.com/
+Content-Length: 436
+Cookie: MUID=2BD4BB99B2ED61670C81B1CBB6ED62FE; SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=598B74DCAE7444E3839F97E532507E4A; SRCHUSR=DOB=20170628; _SS=SID=05ADB0C6D5026BDC33DDBA69D4706AC5&bIm=381928&HV=1498653227; _EDGE_S=SID=05ADB0C6D5026BDC33DDBA69D4706AC5; MUIDB=2BD4BB99B2ED61670C81B1CBB6ED62FE; SRCHHPGUSR=CW=1010&CH=592&DPR=1&UTC=180; WLS=TS=63634253706
+Connection: keep-alive
+
+<ClientInstRequest><Events><E><T>Event.ClientInst</T><IG>2BC9173BB0DB4DAE91AC00E5068023C5</IG><TS>1498653233820</TS><D><![CDATA[[{"T":"CI.BoxModel","FID":"CI","Name":"v2.8","SV":"4","P":{"C":3,"N":3,"I":"15t","S":"V","M":"V+L+M+MT+E+N+C+K+BD","T":9122,"K":"35w+384","F":0},"V":"6gh/////////hidden/visibilitychange","N":"@u/n//@3/ls%2Flsp.aspx/@i/28/@4/@u/0/@u/35x/@v/@v"}]]]></D></E></Events><STS>1498653233820</STS></ClientInstRequest>

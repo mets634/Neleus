@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=15552000
+Content-Type: application/x-javascript; charset=utf-8
+Last-Modified: Sun, 25 Jun 2017 15:10:06 GMT
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+Date: Wed, 28 Jun 2017 13:35:06 GMT
+Content-Length: 1560
+
+var wln=wln||"",Identity;(function(n){function i(n){n.style.display="none";n.setAttribute("aria-hidden","true")}function r(n){n.style.display="inline-block";n.setAttribute("aria-hidden","false")}var u,t;n&&n.sglid&&sj_be&&sj_cook&&sj_evt&&_d&&typeof _d.querySelectorAll!="undefined"&&(u=function(n){var i=n.getAttribute("data-a"),t=n.getAttribute("data-p");i==="false"&&t!=null&&sj_be(n,"click",function(){sj_cook.set("SRCHUSR","POEX",t,!0)})},sj_evt.bind("identityHeaderShown",function(){var n=!1;sj_be(_ge("id_l"),"click",function(){var i,t;if(!n){for(i=_d.querySelectorAll(".b_imi"),t=0;t<i.length;t++)u(i[t]);n=!0}})},!0));sj_evt&&n&&(t=function(t){var c;if(t==null||t.idp!=="orgid"||(c=n.wlProfile(),c==null||c.name==null||t.name!=null)){var e=_ge("id_n"),f=_ge("id_p"),o=_ge("id_s"),s=_ge("id_a"),h=_ge("id_f"),u=t?t.displayName:wln,l=t?t.img:null,a=t?t.idp:null;e&&o&&s&&u?(f&&l&&(f.title=u,f.src=l,r(f)),u.length>10&&(u=u.substring(0,10).replace(/\s+$/,"")+"…"),h&&h.innerText&&h.innerText.length>0&&(u=h.innerText.replace("{0}",u)),e.textContent=u,e.innerText=u,r(e),i(o),i(s),a==="WL"&&f&&(f.style.class

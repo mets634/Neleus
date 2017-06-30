@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: moodle.jct.ac.il
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: visid_incap_97364=nuYkMFY2SJOiAvexFw62ZWBTF1kAAAAAQUIPAAAAAAANzISahfUGk5VQV1Quq/ML; _ga=GA1.3.763167961.1494700898
+Connection: keep-alive
+
